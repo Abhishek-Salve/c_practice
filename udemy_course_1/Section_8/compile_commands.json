@@ -1,0 +1,5 @@
+[{
+  "file": "C:\\Self\\C_Udemy\\Section_8\\2d_array\\main.c",
+  "directory": "C:\\Self\\C_Udemy\\Section_8\\2d_array",
+  "command": "C:/cygwin64/bin/gcc.exe -c C:\\Self\\C_Udemy\\Section_8\\2d_array\\main.c -o C:\\Self\\C_Udemy\\Section_8\\2d_array\\main.c.o  -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }]

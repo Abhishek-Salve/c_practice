@@ -1,0 +1,5 @@
+[{
+  "file": "C:\\Self\\C_Udemy\\Section_7\\quiz_code\\main.c",
+  "directory": "C:\\Self\\C_Udemy\\Section_7\\quiz_code",
+  "command": "C:/cygwin64/bin/gcc.exe -c C:\\Self\\C_Udemy\\Section_7\\quiz_code\\main.c -o C:\\Self\\C_Udemy\\Section_7\\quiz_code\\main.c.o  -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+ }]

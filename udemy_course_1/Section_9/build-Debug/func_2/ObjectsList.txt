@@ -1,0 +1,1 @@
+../build-Debug/func_2/main.c.o
