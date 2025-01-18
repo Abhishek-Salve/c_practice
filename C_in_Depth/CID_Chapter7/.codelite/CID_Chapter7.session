@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Self\C_Udemy\CID_Chapter7\CID_Chapter7.workspace">
+<Session Name="C:\Self\C_Udemy\git_repo\c_practice\C_in_Depth\CID_Chapter7\CID_Chapter7.workspace">
   <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="C:\Self\C_Udemy\CID_Chapter7\CID_Chapter7.workspace" Name="m_workspaceName"/>
+  <wxString Value="C:\Self\C_Udemy\git_repo\c_practice\C_in_Depth\CID_Chapter7\CID_Chapter7.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Self\C_Udemy\CID_Chapter7\test_1\main.c" Name="FileName"/>
-      <int Value="39" Name="FirstVisibleLine"/>
-      <int Value="75" Name="CurrentLine"/>
+      <wxString Value="C:\Self\C_Udemy\git_repo\c_practice\C_in_Depth\CID_Chapter7\test_1\main.c" Name="FileName"/>
+      <int Value="97" Name="FirstVisibleLine"/>
+      <int Value="314" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds">
-        <IntVectorItem Value="47"/>
-        <IntVectorItem Value="54"/>
+        <IntVectorItem Value="137"/>
+        <IntVectorItem Value="144"/>
+        <IntVectorItem Value="151"/>
+        <IntVectorItem Value="160"/>
+        <IntVectorItem Value="169"/>
+        <IntVectorItem Value="180"/>
+        <IntVectorItem Value="188"/>
+        <IntVectorItem Value="199"/>
+        <IntVectorItem Value="210"/>
+        <IntVectorItem Value="225"/>
+        <IntVectorItem Value="233"/>
+        <IntVectorItem Value="250"/>
+        <IntVectorItem Value="263"/>
+        <IntVectorItem Value="270"/>
+        <IntVectorItem Value="279"/>
       </IntVector>
     </TabInfo>
   </TabInfoArray>
