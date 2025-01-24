@@ -4,6 +4,8 @@
 void ref(int *x, int *y);
 void func_return_multiple(int a, int b, int *pa, int *pd, int*pm);
 int *func(int *p, int n);
+float add(float a, float b);
+
 
 int main()
 {
@@ -186,26 +188,67 @@ int main()
 
 
     // malloc()
-    int *p, n, i;
-    printf("Enter no. of integers to be entered : \n");
-    scanf("%d", &n);
-    p = (int *) malloc(n * sizeof(int));
-    if (p == NULL)
-    {   
-        printf("Insufficient memory\n");
-        exit(1);
-    }
-    
-    for(i=0; i<n; i++)
-    {
-        printf("Enter the integer : ");
-        scanf("%d", p+i);
-    }
-    
-    for (i=0; i<n; i++)
-        printf("%d ", *(p+i));
+//    int *p, n, i;
+//    printf("Enter no. of integers to be entered : \n");
+//    scanf("%d", &n);
+//    p = (int *) malloc(n * sizeof(int));
+//    if (p == NULL)
+//    {   
+//        printf("Insufficient memory\n");
+//        exit(1);
+//    }
+//    
+//    for(i=0; i<n; i++)
+//    {
+//        printf("Enter the integer : ");
+//        scanf("%d", p+i);
+//    }
+//    
+//    for (i=0; i<n; i++)
+//        printf("%d ", *(p+i));
 
 
+    // malloc using subscript notations
+//    int *p, n, i;
+//    printf("Enter no. of integers to be entered : \n");
+//    scanf("%d", &n);
+//    p = (int *) malloc(n * sizeof(int));
+//    if (p == NULL)
+//    {   
+//        printf("Insufficient memory\n");
+//        exit(1);
+//    }
+//    
+//    for(i=0; i<n; i++)
+//    {
+//        printf("Enter the integer : ");
+//        scanf("%d", &p[i]);
+//    }
+//    
+//    for (i=0; i<n; i++)
+//        printf("%d ", p[i]);
+
+
+    // address of func
+//    printf("Address of main() = %p \n", main);
+//    printf("Address of ref() = %p \n", ref);
+
+
+    // function pointer
+//    float a = 3.4;
+//    float b = 5.3;
+//    float c;
+//    float (*fp) (float, float);
+//    
+//    fp = add;
+//    c = add(a, b);
+//    printf("c = %.2f \n", c);
+//    
+//    c = (*fp)(a, b);    
+//    printf("c = %.2f \n", c);
+    
+    
+    
     return 0;
 }
 
@@ -226,4 +269,9 @@ int *func(int *p, int n)
 {
     p = p + n;
     return p;    
+}
+
+float add(float a, float b)
+{
+    return a+b;
 }

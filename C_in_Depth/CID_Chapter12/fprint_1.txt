@@ -1,0 +1,3 @@
+User input is
+name=nathan
+age=23
