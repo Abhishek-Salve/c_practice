@@ -1,5 +1,5 @@
 [{
-  "file": "C:\\Self\\C_Udemy\\Section_10\\string_functions_2\\main.c",
-  "directory": "C:\\Self\\C_Udemy\\Section_10\\string_functions_2",
-  "command": "C:/cygwin64/bin/gcc.exe -c C:\\Self\\C_Udemy\\Section_10\\string_functions_2\\main.c -o C:\\Self\\C_Udemy\\Section_10\\string_functions_2\\main.c.o  -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
+  "file": "C:\\Self\\C_Udemy\\git_repo\\c_practice\\Udemy_Course_1\\Section_10\\string_functions\\main.c",
+  "directory": "C:\\Self\\C_Udemy\\git_repo\\c_practice\\Udemy_Course_1\\Section_10\\string_functions",
+  "command": "C:/cygwin64/bin/gcc.exe -c C:\\Self\\C_Udemy\\git_repo\\c_practice\\Udemy_Course_1\\Section_10\\string_functions\\main.c -o C:\\Self\\C_Udemy\\git_repo\\c_practice\\Udemy_Course_1\\Section_10\\string_functions\\main.c.o  -I. -I.  -O0  -gdwarf-2  -std=c99  -Wall"
  }]

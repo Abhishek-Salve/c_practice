@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=string_functions
+ProjectName            :=test_1
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=C:/Self/C_Udemy/git_repo/c_practice/Udemy_Course_1/Section_10
-ProjectPath            :=C:/Self/C_Udemy/git_repo/c_practice/Udemy_Course_1/Section_10/string_functions
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/string_functions
+WorkspacePath          :=C:/Self/C_Udemy/git_repo/c_practice/Udemy_Course_1/Section_17
+ProjectPath            :=C:/Self/C_Udemy/git_repo/c_practice/Udemy_Course_1/Section_17/test_1
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/test_1
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -29,7 +29,7 @@ OutputSwitch           :=-o
 LibraryPathSwitch      :=-L
 PreprocessorSwitch     :=-D
 SourceSwitch           :=-c 
-OutputDirectory        :=C:/Self/C_Udemy/git_repo/c_practice/Udemy_Course_1/Section_10/build-$(WorkspaceConfiguration)/bin
+OutputDirectory        :=C:/Self/C_Udemy/git_repo/c_practice/Udemy_Course_1/Section_17/build-$(WorkspaceConfiguration)/bin
 OutputFile             :=..\build-$(WorkspaceConfiguration)\bin\$(ProjectName).exe
 Preprocessors          :=
 ObjectSwitch           :=-o 
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Self/C_Udemy/git_repo/c_practice/Udemy_Course_1/Section_10/string_functions/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Self/C_Udemy/git_repo/c_practice/Udemy_Course_1/Section_17/test_1/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 

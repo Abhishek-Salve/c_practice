@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 // Write a program the displays input string in reverse order 
 // read input from keyboard
@@ -12,6 +13,7 @@ int main()
     
     printf("Input a string to be reversed :\n");
     scanf("%s", str_input_1);
+//    gets("%s", str_input_1);
     printf("What you entered : %s\n", str_input_1);
     
     str_length = strlen(str_input_1);
